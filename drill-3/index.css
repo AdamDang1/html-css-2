@@ -1,0 +1,56 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    padding: 50px;
+}
+
+header {
+    background-color: lightgrey;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.square {
+    background-color: dodgerblue;
+    width: 75px;
+    height: 75px;
+}
+
+.stripe {
+    height: 25vh;
+}
+
+.stripe-1 {
+    background-color: dodgerblue;
+}
+
+.stripe-2 {
+    background-color: darkseagreen;
+}
+
+.stripe-3 {
+    background-color: khaki;
+}
+
+.stripe-4 {
+    background-color: yellow;
+}
+
+.question-container {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+}
+
+.question-container button {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 25px;
+}

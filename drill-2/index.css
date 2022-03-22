@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 25px;
+}
+
+.section-one {
+    border: 4px solid black;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+
+.square-one {
+    height: 110px;
+    width: 50px;
+    background-color: darkviolet;
+}
+
+.square-two {
+    height: 150px;
+    width: 350px;
+    background-color: green;
+    margin: 0px 60px;
+}
+
+.circle-one {
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.section-two {
+    border: 4px dotted black;
+    padding: 40px;
+    margin-top: 25px;
+    box-sizing: border-box;
+}
+
+.square-shaded {
+    background-color: rgb(245, 240, 175);
+    height: 180px;
+    width: 100%;
+    box-shadow: 10px 10px 10px 0px rgb(2, 2, 2)
+}
+
+.section-three {
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    background-color: white;
+    margin: 25px auto;
+    padding: 100px;
+    width: 50%;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 3px 0px gray;
+}
+
+.section-three h1 {
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 8px;
+}
